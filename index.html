@@ -8,6 +8,16 @@
     <div class="container">
         <h1>Crear Usuario</h1>
         <form id="userForm">
+
+            <label for="name">Nombres:</label>
+            <input type="text" id="name" required>
+
+            <label for="lastname">Apellidos:</label>
+            <input type="text" id="lastname" required>
+
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" required>
+
             <label for="username">Nombre de usuario:</label>
             <input type="text" id="username" required>
             
@@ -18,7 +28,7 @@
             <input type="password" id="confirmPassword" required>
             <p id="message"></p>
 
-            <button type="submit">Crear</button>
+            <button type="button" id="enviar">Crear</button>
         </form>        
     </div>
 

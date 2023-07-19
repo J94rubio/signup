@@ -8,21 +8,7 @@ h1 {
     text-align: center;
 }
 
-#username{
-    height: 20px;
-    width: 80%;
-    border-radius: 10px;
-    border: 1px solid grey;
-}
-
-#password{
-    height: 20px;
-    width: 80%;
-    border-radius: 10px;
-    border: 1px solid grey;
-}
-
-#confirmPassword{
+#name, #lastname, #email, #username, #password, #confirmPassword{
     height: 20px;
     width: 80%;
     border-radius: 10px;

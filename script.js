@@ -1,5 +1,4 @@
 
-
 function validatePassword() {
   const passwordInput = document.getElementById("password");
   const confirmacionInput = document.getElementById("confirmPassword");
